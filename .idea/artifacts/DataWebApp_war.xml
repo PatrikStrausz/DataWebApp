@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="DataWebApp:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>DataWebApp</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="DataWebApp.war">
+      <element id="artifact" artifact-name="DataWebApp:war exploded" />
+    </root>
+  </artifact>
+</component>
